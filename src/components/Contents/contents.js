@@ -1,4 +1,4 @@
-import './contents.css';
+import './Contents.css';
 
 function Contents() {
     return (

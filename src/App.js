@@ -1,5 +1,5 @@
 import './App.css';
-import Screen from './pages/screen'
+import Screen from './pages/Screen';
 
 function App() {
   return (
