@@ -1,5 +1,6 @@
 import './Screen.css';
 import TitlePage from '../TitlePage';
+import AboutMePage from '../AboutMePage';
 
 function Screen() {
     return (
@@ -8,10 +9,17 @@ function Screen() {
                 <TitlePage />
             </section>
 
-            <section className="h-full w-full center" id="about-me">
-                
+            <section className="h-full w-full" id="about">
+                <AboutMePage />
             </section>
 
+            <section className="h-full w-full" id="experiences">
+                <AboutMePage />
+            </section>
+
+            <section className="h-full w-full" id="projects">
+                <AboutMePage />
+            </section>
         </div>
     );
 }
