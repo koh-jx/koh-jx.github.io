@@ -4,7 +4,7 @@ import Screen from './pages/screen'
 function App() {
   return (
     <div className="crosshatch-container font-Teko">
-      <div className="content">
+      <div className="content center">
         <Screen />  
       </div>
     </div>

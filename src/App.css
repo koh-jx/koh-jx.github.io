@@ -16,9 +16,12 @@
 .content {
   width: 80%;
   height: 80%;
+  background-color: rgb(133, 170, 129);
+  color: rgb(48, 61, 47);
+}
+
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(133, 170, 129);
-  color: rgb(48, 61, 47);
 }
