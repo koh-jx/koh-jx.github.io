@@ -7,7 +7,7 @@ function AboutMePage() {
                 <img src="https://i.imgur.com/9n010Gv.png" alt="portrait" className="mx-auto portrait h-4/5"/>
             </div>
 
-            <div className="col-span-2 center text-base sm:text-1xl md:text-1xl lg:text-2xl m-5">
+            <div className="col-span-2 center text-2xl sm:text-2xl md:text-2xl lg:text-2xl m-5">
                 {/* Text introducing me  */}
                 <p>
                     Greetings, I am <span className="text-white">Koh Jia Xian</span>!
@@ -21,7 +21,7 @@ function AboutMePage() {
                 </p>
             </div>
 
-            <div className="col-span-2 center text-1xl sm:text-1xl md:text-3xl lg:text-3xl">
+            <div className="col-span-2 center text-2xl sm:text-2xl md:text-3xl lg:text-3xl m-5">
                 <p>
                     Feel free to reach out!
                 </p>

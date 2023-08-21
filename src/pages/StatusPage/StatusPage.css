@@ -15,3 +15,7 @@
     border-width: 0.2rem;
     max-width: fit-content;
 }
+
+.navbar li:hover {
+    cursor: pointer;
+}
