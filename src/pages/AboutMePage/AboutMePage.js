@@ -4,7 +4,7 @@ function AboutMePage() {
     return (
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:m-2">
             <div className="row-span-2 col-span-2 sm:col-span-2 md:col-span-2 lg:col-span-1 center">
-                <img src="https://i.imgur.com/9n010Gv.png" alt="portrait" className="mx-auto portrait h-4/5"/>
+                <img src="https://i.imgur.com/WTeFjhh.png" alt="portrait" className="mx-auto portrait h-4/5"/>
             </div>
 
             <div className="col-span-2 center text-2xl sm:text-2xl md:text-2xl lg:text-2xl m-5">
