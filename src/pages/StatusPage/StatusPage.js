@@ -3,9 +3,10 @@ import PageTitle from '../../components/PageTitle';
 import AboutMePage from '../AboutMePage';
 import BackgroundPage from '../BackgroundPage';
 
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, useNavigate } from "react-router-dom"   
 
 function StatusPage() {
+    const navigate = useNavigate();
     return (
         <>
             <PageTitle name={"About Me"}/>
@@ -14,13 +15,13 @@ function StatusPage() {
                     <div class="flex items-center">
                         <ul class="grid grid-cols-2 gap-3 text-left items-left text-xl sm:text-xl md:text-2xl md:grid-cols-2 lg:text-2xl lg:grid-cols-3">
                             <li>
-                                <span class="hover:underline font-PixelBlock">Character</span>
+                                <span class="hover:underline font-PixelBlock" onClick={() => navigate('/character')}>Character</span>                                
                             </li>
                             <li>
-                                <span class="hover:underline font-PixelBlock">Background</span>
+                                <span class="hover:underline font-PixelBlock" onClick={() => navigate('/background')}>Background</span>
                             </li>
                             <li>
-                                <span class="hover:underline font-PixelBlock">Skills</span>
+                                <span class="hover:underline font-PixelBlock" onClick={() => navigate('/background')}>Skills</span>
                             </li>
                         </ul>
                     </div>

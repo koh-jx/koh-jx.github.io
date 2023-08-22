@@ -14,8 +14,6 @@
 }
 
 .content {
-  width: 80%;
-  height: 80%;
   background-color: rgb(108, 136, 105);
   color: rgb(48, 61, 47);
   /* add shadow inside the div */

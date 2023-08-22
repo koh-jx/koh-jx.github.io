@@ -1,22 +1,25 @@
 import './BackgroundPage.css';
 import InfoCard from '../../components/InfoCard';
+import { EDUCATION, WORK_EXPERIENCE } from '../../common/info';
 
 function BackgroundPage() {
     return (
-        <div className='grid grid-rows-2 overflow-scroll no-scrollbar'>
-            <div className='w-full h-full m-4 text-3xl md:text-4xl lg:text-4xl'>
+        <div className='overflow-scroll no-scrollbar'>
+            <div className='w-full h-fit m-4 text-3xl md:text-4xl lg:text-4xl'>
                 <span className="underline">Education</span>
                 <div className='grid grid-cols-1'>
-                    <InfoCard title="Seagate Technology" subtitle="Test Systems Automation Engineer" date="May 2023 - Jul 2023" descriptionArray={["Performed this task", 2, 3, 4]} />
-                    {/* <InfoCard /> */}
+                    {EDUCATION.map((info) => (
+                        <InfoCard title={info.title} subtitle={info.subtitle} date={info.date} descriptionArray={info.descriptionArray} />
+                    ))}
                 </div>
             </div>
 
-            <div className='w-fit m-4 text-2xl md:text-3xl lg:text-3xl'>
+            <div className='w-fit h-fit m-4 text-2xl md:text-3xl lg:text-3xl'>
                 <span className="underline">Work Experience</span>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
-                    {/* <InfoCard />
-                    <InfoCard /> */}
+                <div className='grid grid-cols-1'>
+                    {WORK_EXPERIENCE.map((info) => (
+                        <InfoCard title={info.title} subtitle={info.subtitle} date={info.date} descriptionArray={info.descriptionArray} />
+                    ))}
                 </div>
             </div>
         </div>
