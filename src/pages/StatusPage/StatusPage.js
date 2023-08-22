@@ -2,6 +2,7 @@ import './StatusPage.css';
 import PageTitle from '../../components/PageTitle';
 import AboutMePage from '../AboutMePage';
 import BackgroundPage from '../BackgroundPage';
+import SkillsPage from '../SkillsPage';
 
 import { Route, Routes, useNavigate } from "react-router-dom"   
 
@@ -21,7 +22,7 @@ function StatusPage() {
                                 <span class="hover:underline font-PixelBlock" onClick={() => navigate('/background')}>Background</span>
                             </li>
                             <li>
-                                <span class="hover:underline font-PixelBlock" onClick={() => navigate('/background')}>Skills</span>
+                                <span class="hover:underline font-PixelBlock" onClick={() => navigate('/skills')}>Skills</span>
                             </li>
                         </ul>
                     </div>
@@ -33,7 +34,7 @@ function StatusPage() {
                     <Route path="/" element={<AboutMePage/>}/>
                     <Route path="/character" element={<AboutMePage/>}/>
                     <Route path="/background" element={<BackgroundPage/>}/>
-                    <Route path="/skills" element={<AboutMePage/>}/>
+                    <Route path="/skills" element={<SkillsPage/>}/>
                     <Route path="*" element={<AboutMePage/>} />
                 </Routes>
             </div>
