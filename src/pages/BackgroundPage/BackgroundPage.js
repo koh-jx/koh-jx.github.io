@@ -4,10 +4,10 @@ import InfoCard from '../../components/InfoCard';
 function BackgroundPage() {
     return (
         <div className='grid grid-rows-2 overflow-scroll no-scrollbar'>
-            <div className='w-fit h-full m-4 text-2xl md:text-3xl lg:text-3xl'>
+            <div className='w-full h-full m-4 text-3xl md:text-4xl lg:text-4xl'>
                 <span className="underline">Education</span>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
-                    <InfoCard title="Hello" subtitle="job description" descriptionArray={["Performed this task for the good of the people ", 2, 3, 4]} />
+                <div className='grid grid-cols-1'>
+                    <InfoCard title="Seagate Technology" subtitle="Test Systems Automation Engineer" date="May 2023 - Jul 2023" descriptionArray={["Performed this task", 2, 3, 4]} />
                     {/* <InfoCard /> */}
                 </div>
             </div>
