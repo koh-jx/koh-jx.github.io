@@ -16,3 +16,7 @@
 .navbar li:hover {
     cursor: pointer;
 }
+
+.selected {
+    color: white;
+}

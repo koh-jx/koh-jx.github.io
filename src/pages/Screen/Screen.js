@@ -1,6 +1,7 @@
 import './Screen.css';
 import TitlePage from '../TitlePage';
 import StatusPage from '../StatusPage';
+import ProjectsPage from '../ProjectsPage';
 
 function Screen() {
     return (
@@ -14,15 +15,11 @@ function Screen() {
                     <StatusPage />
                 </section>
 
-                {/* <section className="min-h-full w-full" id="experiences">
-                    
-                </section>
-
                 <section className="min-h-full w-full" id="projects">
-                    
+                    <ProjectsPage />
                 </section>
 
-                <section className="min-h-full w-full" id="Other projects">
+                {/* <section className="min-h-full w-full" id="Other projects">
                     
                 </section> */}
             </div>
