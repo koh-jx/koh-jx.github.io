@@ -1,0 +1,19 @@
+.selected-cursor {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgb(48, 61, 47);
+    transform: translateX(15px) translateY(-40px);
+    rotate: 90deg;
+    animation: bobbing 0.8s infinite steps(2);
+}
+
+@keyframes bobbing {
+    0% {
+      transform: translateX(15px) translateY(-40px);
+    }
+    100% {
+      transform: translateX(15px) translateY(-30px);
+    }
+  }

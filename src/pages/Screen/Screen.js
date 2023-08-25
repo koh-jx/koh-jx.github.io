@@ -15,11 +15,11 @@ function Screen() {
                     <StatusPage />
                 </section>
 
-                <section className="min-h-full w-full" id="projects">
+                <section className="min-h-full h-fit w-full" id="projects">
                     <ProjectsPage />
                 </section>
 
-                <section className="min-h-full w-full" id="other-work">
+                <section className="min-h-full h-fit w-full" id="other-work">
                     
                 </section>
             </div>

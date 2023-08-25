@@ -28,7 +28,7 @@ export const EDUCATION = [
 ]
 export const WORK_EXPERIENCE = [
     Info("Seagate Technology", 
-        "Test Systems Automation Engineer", 
+        "Test Systems Automation Engineer Intern", 
         "May 2023 - Jul 2023", 
         "Implemented an interactive shell for Seagate’s in-house hardware-testing framework built on Pytest.", 
         "Constructed processes to automatically generate documentation HTML files using Python, Sphinx and batch scripting, by extracting docstrings/test information from Python files/Word documents respectively"
