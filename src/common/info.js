@@ -7,6 +7,16 @@ const Info = (title, subtitle, date, ...descriptions) => {
     }
 }
 
+const Project = (title, subtitle, stack, imgLink, links={}) => {
+    return {
+        title: title,
+        subtitle: subtitle,
+        stack: stack,
+        imgLink: imgLink,
+        links: links
+    }
+}
+
 export const EDUCATION = [
     Info("National University of Singapore",
         "Bachelor of Computing (Honours) in Computer Science",
@@ -31,6 +41,30 @@ export const WORK_EXPERIENCE = [
     )
 ]
 
+export const PROJECTS = [
+    Project("Wishbound", 
+        "Grid-based Role-Playing Game. Showcased in 22nd NUS STePS.", 
+        "Unreal Engine 4, C++",
+        "", 
+        {Github: "https://github.com/ryantanlien/cs3247-wishbound", 
+        Link: "https://uvents.nus.edu.sg/event/22nd-steps/module/CS3247/project/8"}
+    ),
+    Project("Anka", 
+        "Full stack flashcard memorisation web app.", 
+        "React, NestJS, MongoDB",
+        "", 
+        {Github: "https://github.com/koh-jx/Anka"}
+    ),
+    Project("Study Planner",
+        "Timetabling web application created as part of NUS SoC Orbital 2021.",
+        "React, Firebase",
+        "",
+        {Link: "https://orbital-f53dc.firebaseapp.com"}
+    )
+
+    // NUSe
+    // Portfolio website
+]
 
 
 
