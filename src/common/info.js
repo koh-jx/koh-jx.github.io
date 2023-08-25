@@ -12,7 +12,7 @@ const Project = (title, subtitle, stack, imgLink, links={}) => {
         title: title,
         subtitle: subtitle,
         stack: stack,
-        imgLink: imgLink,
+        imgSrc: imgLink,
         links: links
     }
 }
@@ -45,14 +45,15 @@ export const PROJECTS = [
     Project("Wishbound", 
         "Grid-based Role-Playing Game. Showcased in 22nd NUS STePS.", 
         "Unreal Engine 4, C++",
-        "", 
+        "https://i.imgur.com/MGW3HVq.png", 
+        // "https://i.imgur.com/mBXBc3p.png",
         {Github: "https://github.com/ryantanlien/cs3247-wishbound", 
         Link: "https://uvents.nus.edu.sg/event/22nd-steps/module/CS3247/project/8"}
     ),
     Project("Anka", 
-        "Full stack flashcard memorisation web app.", 
+        "Flashcard management web application, utilising spaced repetition algorithms for optimised language learning.", 
         "React, NestJS, MongoDB",
-        "", 
+        "https://anka-koh-jx.vercel.app/static/media/logo.2791cad962b087e13b36.png", 
         {Github: "https://github.com/koh-jx/Anka"}
     ),
     Project("Study Planner",

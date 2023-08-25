@@ -19,9 +19,9 @@ function Screen() {
                     <ProjectsPage />
                 </section>
 
-                {/* <section className="min-h-full w-full" id="Other projects">
+                <section className="min-h-full w-full" id="other-work">
                     
-                </section> */}
+                </section>
             </div>
         </>
     );

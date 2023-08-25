@@ -40,9 +40,9 @@ function Contents() {
             <div 
                 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-PixelBlock center hover:underline cursor-pointer"
                 // Scroll to the about section
-                onClick={() => scrollTo("other-projects")}
+                onClick={() => scrollTo("other-work")}
             >
-                Other projects
+                Other work
             </div>
         </div>
     );
