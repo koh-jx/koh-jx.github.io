@@ -17,6 +17,13 @@ const Project = (title, subtitle, stack, imgLink, links={}) => {
     }
 }
 
+const Skill = (title, svgLink) => {
+    return {
+        title: title,
+        svgSrc: svgLink
+    }
+}
+
 export const EDUCATION = [
     Info("National University of Singapore",
         "Bachelor of Computing (Honours) in Computer Science",
@@ -66,6 +73,33 @@ export const PROJECTS = [
     // NUSe
     // Portfolio website
 ]
+
+export const SKILLS = {
+    "Web Development": [
+        Skill("React", "./skills/react.svg"),
+        Skill("NestJS", "./skills/nestjs.svg"),
+    ],
+    "Languages": [
+        Skill("TypeScript", "./skills/typescript.svg"),
+        Skill("C++", "./skills/cpp.svg"),
+        Skill("Python", "./skills/python.svg"),
+        Skill("Java", "./skills/java-icon.svg"),
+        Skill("HTML", "./skills/html.svg"),
+        Skill("CSS", "./skills/css.svg"),
+        Skill("PostGreSQL", "./skills/postgresql.svg"),
+    ],
+    "Tools": [
+        Skill("Unreal Engine 4", "./skills/unreal.svg"),
+        Skill("Krita", "./skills/krita.svg"),
+        Skill("Photoshop", "./skills/photoshop.svg"),
+    ]
+}
+
+    
+    
+    
+    
+    
 
 
 

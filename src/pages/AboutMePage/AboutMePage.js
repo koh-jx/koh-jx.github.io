@@ -13,7 +13,7 @@ function AboutMePage() {
                     Greetings, I am <span className="text-white">Koh Jia Xian</span>!
                     <br />
                     <br />
-                    I love ideating and crafting people-centered applications. I am also very passionate about Graphic Design!
+                    I love ideating and crafting people-centered applications. I am also very passionate about Graphic Design! In my free time, you can find my playing video games, drawing or bouldering!
                     {/* I am a <span className="text-white">final-year Computer Science</span> student at the <span className="text-white">National University of Singapore</span>, specialising in <span className="text-white">Graphics and Game Development</span> and <span className="text-white">Databases</span>.  */}
                     <br />
                     <br />

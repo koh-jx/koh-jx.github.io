@@ -44,7 +44,7 @@ function StatusPage() {
                 </div>
             </nav>
 
-            <div className="window h-4/6 m-8 mt-2 overflow-scroll no-scrollbar">
+            <div className="window h-4/6 m-8 mt-2 overflow-scroll no-scrollbar overscroll-contain">
                 <Routes>
                     <Route path="/" element={<AboutMePage/>}/>
                     <Route path="/character" element={<AboutMePage/>}/>

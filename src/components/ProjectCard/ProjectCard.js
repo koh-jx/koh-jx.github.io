@@ -23,10 +23,8 @@ function ProjectCard({ title="", subtitle="", stack="", imgSrc="https://via.plac
                 <div className="flex flex-row">
                     {Object.keys(link).map((key) => (
                         <div key={key} className="font-PixelBlock text-2xl sm:text-1xl md:text-1xl lg:text-2xl">
-                            <a href={link[key]}  target="_blank" rel="noreferrer">
-                                <button className="button m-2 py-2 px-2 inline-flex items-center aspect-square">
-                                    {LINK_TO_ICON[key]}
-                                </button>
+                            <a href={link[key]}  target="_blank" rel="noreferrer" className="button m-2 py-2 px-2 inline-flex items-center aspect-square">
+                                {LINK_TO_ICON[key]}
                             </a>
                         </div>
                     ))}

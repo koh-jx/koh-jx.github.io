@@ -71,7 +71,7 @@ function Contents() {
                 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-PixelBlock cursor-pointer col-span-2 pl-2"
                 // Scroll to the about section
                 onClick={() => {
-                    // playAudio();
+                    playAudio();
                     scrollTo("about");
                     navigate('/character');
                 }}
@@ -84,7 +84,7 @@ function Contents() {
             <div 
                 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-PixelBlock cursor-pointer col-span-2 pl-2"
                 onClick={() => {
-                    // playAudio();
+                    playAudio();
                     scrollTo("about")
                     navigate('/background');
                 }}
@@ -97,7 +97,7 @@ function Contents() {
                 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-PixelBlock cursor-pointer col-span-2 pl-2"
                 // Scroll to the about section
                 onClick={() => {
-                    // playAudio();
+                    playAudio();
                     scrollTo("projects");
                 }}
                 onMouseEnter={() => updateSelected(2)}
@@ -109,7 +109,7 @@ function Contents() {
                 className="text-2xl sm:text-2xl md:text-3xl lg:text-3xl font-PixelBlock cursor-pointer col-span-2 pl-2"
                 // Scroll to the about section
                 onClick={() => {
-                    // playAudio();
+                    playAudio();
                     scrollTo("other-work");
                 }}
                 onMouseEnter={() => updateSelected(3)}

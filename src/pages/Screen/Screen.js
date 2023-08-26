@@ -11,6 +11,7 @@ function Screen() {
                     <TitlePage />
                 </section>
 
+                {/* <section className="min-h-full h-fit w-full" id="about"> */}
                 <section className="min-h-full h-full w-full" id="about">
                     <StatusPage />
                 </section>
