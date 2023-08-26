@@ -13,8 +13,8 @@ function InfoCard({ title="", subtitle="", date="", descriptionArray=[] }) {
             
             <div className='text-sm md:text-sm lg:text-base font-sans '>
                 <ul className='list-disc list-inside'>
-                    {descriptionArray.map((description) => (
-                        <li>{description} </li>
+                    {descriptionArray.map((description, i) => (
+                        <li key={i}>{description} </li>
                     ))}
                 </ul>
             </div>

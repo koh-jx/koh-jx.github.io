@@ -26,10 +26,10 @@ function StatusPage() {
     return (
         <>
             <PageTitle name={"About Me"}/>
-            <nav class="navbar mr-auto ml-8 mr-8 h-fit">
-                <div class="max-w-screen-xl px-4 py-3">
-                    <div class="flex items-center">
-                        <ul class="grid grid-cols-2 gap-3 text-left items-left text-xl sm:text-xl md:text-2xl md:grid-cols-3 lg:text-2xl lg:grid-cols-3 font-PixelBlock">
+            <nav className="navbar mr-auto ml-8 mr-8 h-fit">
+                <div className="max-w-screen-xl px-4 py-3">
+                    <div className="flex items-center">
+                        <ul className="grid grid-cols-2 gap-3 text-left items-left text-xl sm:text-xl md:text-2xl md:grid-cols-3 lg:text-2xl lg:grid-cols-3 font-PixelBlock">
                             <li>
                                 <span className={"hover:underline" + (activeSection === "character" ? " selected": "")} onClick={() => navigate('/character')}>Character</span>                                
                             </li>

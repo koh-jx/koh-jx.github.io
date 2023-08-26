@@ -9,7 +9,7 @@ function BackgroundPage() {
                 <span className="underline">Education</span>
                 <div className='grid grid-cols-1'>
                     {EDUCATION.map((info) => (
-                        <InfoCard title={info.title} subtitle={info.subtitle} date={info.date} descriptionArray={info.descriptionArray} />
+                        <InfoCard key={info.title} title={info.title} subtitle={info.subtitle} date={info.date} descriptionArray={info.descriptionArray} />
                     ))}
                 </div>
             </div>
@@ -18,7 +18,7 @@ function BackgroundPage() {
                 <span className="underline">Work Experience</span>
                 <div className='grid grid-cols-1'>
                     {WORK_EXPERIENCE.map((info) => (
-                        <InfoCard title={info.title} subtitle={info.subtitle} date={info.date} descriptionArray={info.descriptionArray} />
+                        <InfoCard key={info.title} title={info.title} subtitle={info.subtitle} date={info.date} descriptionArray={info.descriptionArray} />
                     ))}
                 </div>
             </div>

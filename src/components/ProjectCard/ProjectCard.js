@@ -12,7 +12,7 @@ function ProjectCard({ title="", subtitle="", stack="", imgSrc="https://via.plac
     return (
         <div className="min-w-fit h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             <div className='relative group w-4/5 aspect-square'>
-                <img src={imgSrc} alt='' className='object-cover w-full h-full' />            
+                <img src={imgSrc} alt='' className='object-cover w-full h-full picture' />            
             </div>
 
             <div className="col-span-1 text-base text-1xl m-2">
@@ -22,7 +22,7 @@ function ProjectCard({ title="", subtitle="", stack="", imgSrc="https://via.plac
                 {/* Row of button links  */}
                 <div className="flex flex-row">
                     {Object.keys(link).map((key) => (
-                        <div className="font-PixelBlock text-2xl sm:text-1xl md:text-1xl lg:text-2xl">
+                        <div key={key} className="font-PixelBlock text-2xl sm:text-1xl md:text-1xl lg:text-2xl">
                             <a href={link[key]}  target="_blank" rel="noreferrer">
                                 <button className="button m-2 py-2 px-2 inline-flex items-center aspect-square">
                                     {LINK_TO_ICON[key]}
