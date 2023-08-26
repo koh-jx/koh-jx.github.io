@@ -3,7 +3,6 @@ import SkillCard from '../../components/SkillCard';
 import { SKILLS } from '../../common/info';
 
 function SkillSection({ title="", svgs=[], paddingTop=false}) {
-    console.log(svgs)
     return (
         <section className='pb-8 px-4'>
             <div className='w-full h-fit m-4 text-2xl md:text-4xl lg:text-4xl'>
