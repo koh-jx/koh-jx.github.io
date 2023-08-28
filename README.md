@@ -4,7 +4,7 @@
 
 Front-end web application using ReactJS.
 
-Visit it [here](koh-jx.github.io)!
+Visit it [here](https://koh-jx.github.io)!
 
 ## Update Instructions
 
