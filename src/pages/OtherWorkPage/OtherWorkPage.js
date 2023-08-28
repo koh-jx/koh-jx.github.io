@@ -28,31 +28,31 @@ function OtherWorkPage() {
                 <div className="pl-5 col-span-2 flex flex-col h-full">
                     <div className="grid grid-cols-3 gap-6">
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(0)}/>
+                            <img src={DETAILS_LIST[page * 9].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(0)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 1].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(1)}/>
+                            <img src={DETAILS_LIST[page * 9 + 1].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(1)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 2].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(2)}/>
+                            <img src={DETAILS_LIST[page * 9 + 2].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(2)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 3].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(3)}/>
+                            <img src={DETAILS_LIST[page * 9 + 3].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(3)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 4].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(4)}/>
+                            <img src={DETAILS_LIST[page * 9 + 4].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(4)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 5].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(5)}/>
+                            <img src={DETAILS_LIST[page * 9 + 5].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(5)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 6].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(6)}/>
+                            <img src={DETAILS_LIST[page * 9 + 6].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(6)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 7].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(7)}/>
+                            <img src={DETAILS_LIST[page * 9 + 7].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(7)} className="object-cover aspect-square"/>
                         </div>
                         <div className="box aspect-square">
-                            <img src={DETAILS_LIST[page * 9 + 8].imgLink} alt="placeholder" onMouseEnter={() => updateSelection(8)}/>
+                            <img src={DETAILS_LIST[page * 9 + 8].webpLink} alt="placeholder" onMouseEnter={() => updateSelection(8)} className="object-cover aspect-square"/>
                         </div>
                     </div>
 
@@ -73,7 +73,7 @@ function OtherWorkPage() {
                     
                 <div className="col-span-3 preview center flex flex-col h-full">
                     <div className="h-fit">
-                        <img className='object-scale-down h-80' src={DETAILS_LIST[selection + page * 9].imgLink} alt="preview" />
+                        <img className='object-scale-down h-80' src={DETAILS_LIST[selection + page * 9].webpLink} alt="preview" />
                     </div>
                     <span className="font-PixelBlock text-3xl p-4">{DETAILS_LIST[selection + page * 9].title}</span>
                 </div>

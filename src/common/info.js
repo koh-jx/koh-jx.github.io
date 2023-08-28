@@ -27,7 +27,8 @@ const Skill = (title, svgLink) => {
 const OTHER_WORK = (title="", imgLink="pixel/invalid.png") => {
     return {
         title: title,
-        imgLink: imgLink
+        imgLink: imgLink + ".png",
+        webpLink: title === "" ? imgLink : imgLink + ".webp"
     }
 }
 
@@ -45,7 +46,7 @@ export const WORK_EXPERIENCE = [
         "Test Systems Automation Engineer Intern", 
         "May 2023 - Jul 2023", 
         "Implemented an interactive shell for Seagate’s in-house hardware-testing framework built on Pytest.", 
-        "Constructed processes to automatically generate documentation HTML files using Python, Sphinx and batch scripting, by extracting docstrings/test information from Python files/Word documents respectively"
+        "Constructed processes to automatically generate documentation HTML files using Python, Sphinx and batch scripting."
     ),
     Info("Dedoco Pte Ltd",
         "Software Engineering Intern",
@@ -110,18 +111,35 @@ export const SKILLS = {
 }
 
 export const DETAILS_LIST = [
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
-    OTHER_WORK(),
+    OTHER_WORK("League of Legends fanart", "graphics-works/ezreal"),
+    OTHER_WORK("Overwatch fanart", "graphics-works/kiriko"),
+    OTHER_WORK("Marvel fanart", "graphics-works/kamala"),
+    OTHER_WORK("NUS Computing Club Merchandise E-Store launch promotion", "graphics-works/Launch"),
+    OTHER_WORK("NUS Computing Club T-shirt design", "graphics-works/tshirt"),
+    OTHER_WORK("NUS SoC eFreshman Orientation Programme 1st logo design", "graphics-works/ad_meliora_initial_logo"),
+    OTHER_WORK("NUS Computing Club E-Sports Night promotional poster", "graphics-works/esportsnight"),
+    OTHER_WORK("NUS Computing Club Spotify playlist promotion", "graphics-works/Youtube"),
+    OTHER_WORK("NUS LifeHack event poster", "graphics-works/lifehack"),
+
+    OTHER_WORK("Fifty fifty reference study", "graphics-works/5050"),
+    OTHER_WORK("Reference art", "graphics-works/reference"),
+    OTHER_WORK("NUS Freshman Orientation Projects Instagram logo", "graphics-works/socfop_logo"),
+    OTHER_WORK("X-men fanart", "graphics-works/jean_grey"),
+    OTHER_WORK("NUS SoC Soccat fanart", "graphics-works/cat"),
+    OTHER_WORK("NUS Piano Ensemble Concertino concert promotion", "graphics-works/birdcage"),
+    OTHER_WORK("NUS Computing Club 23rd Management Committee Namecard", "graphics-works/namecard"),
+    OTHER_WORK("NUS Computing Club Finals 'Good Luck' poster", "graphics-works/finals_goodluck"),
+    OTHER_WORK("NUS SoC eFreshman Orientation Programme final logo design", "graphics-works/admeliora_logo"),
+    OTHER_WORK("NUS SoC eFreshman Orientation Programme promotional poster", "graphics-works/Recruitment"),
+    
+    OTHER_WORK("NUS Piano Ensemble Melodias concert promotion", "graphics-works/melodias"),
+
+    
+    
+    
+    
+    
+    
 ]
 
 
@@ -133,7 +151,4 @@ if (DETAILS_LIST.length % 9 !== 0) {
     }
 }
 
-
-
-
-
+console.log(DETAILS_LIST)
