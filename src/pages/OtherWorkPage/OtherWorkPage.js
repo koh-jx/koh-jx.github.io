@@ -76,6 +76,7 @@ function OtherWorkPage() {
                         <img className='object-scale-down h-80' src={DETAILS_LIST[selection + page * 9].webpLink} alt="preview" />
                     </div>
                     <span className="font-PixelBlock text-3xl p-4">{DETAILS_LIST[selection + page * 9].title}</span>
+                    <span className="font-PixelBlock text-3xl p-4 opacity:60">{DETAILS_LIST[selection + page * 9].subtitle}</span>
                 </div>
 
             </div>
