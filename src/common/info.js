@@ -112,27 +112,27 @@ export const SKILLS = {
 
 export const DETAILS_LIST = [
     OTHER_WORK("League of Legends fanart", "graphics-works/ezreal"),
-    OTHER_WORK("Marvel Spiderverse fanart", "graphics-works/peni"),
+    OTHER_WORK("Marvel Spiderverse fanart", "graphics-works/Peni"),
     OTHER_WORK("Overwatch fanart", "graphics-works/kiriko"),
     OTHER_WORK("Marvel fanart", "graphics-works/kamala"),
-    OTHER_WORK("NUS Computing Club Merchandise E-Store launch promotion", "graphics-works/Launch"),
-    OTHER_WORK("NUS Computing Club T-shirt design", "graphics-works/tshirt"),
+    OTHER_WORK("NUS Freshman Orientation Projects Instagram logo", "graphics-works/socfop_logo"),
+    OTHER_WORK("NUS LifeHack event poster", "graphics-works/lifehack"),
     OTHER_WORK("NUS SoC eFreshman Orientation Programme 1st logo design", "graphics-works/ad_meliora_initial_logo"),
     OTHER_WORK("NUS Computing Club E-Sports Night promotional poster", "graphics-works/esportsnight"),
     OTHER_WORK("NUS Computing Club Spotify playlist promotion", "graphics-works/Youtube"),
     
-    OTHER_WORK("NUS LifeHack event poster", "graphics-works/lifehack"),
+    OTHER_WORK("NUS Computing Club Merchandise E-Store launch promotion", "graphics-works/Launch"),
     OTHER_WORK("Marvel X-men fanart", "graphics-works/jean_grey"),
     OTHER_WORK("Fifty fifty reference study fanart", "graphics-works/5050"),
     OTHER_WORK("Reference art", "graphics-works/reference"),
-    OTHER_WORK("NUS Freshman Orientation Projects Instagram logo", "graphics-works/socfop_logo"),
-    OTHER_WORK("NUS SoC Soccat fanart", "graphics-works/cat"),
+    OTHER_WORK("NUS Computing Club T-shirt design", "graphics-works/tshirt"),
     OTHER_WORK("NUS Piano Ensemble Concertino concert promotion", "graphics-works/birdcage"),
     OTHER_WORK("NUS Computing Club 23rd Management Committee Namecard", "graphics-works/namecard"),
     OTHER_WORK("NUS Computing Club Finals 'Good Luck' poster", "graphics-works/finals_goodluck"),
     OTHER_WORK("NUS SoC eFreshman Orientation Programme final logo design", "graphics-works/admeliora_logo"),
     OTHER_WORK("NUS SoC eFreshman Orientation Programme promotional poster", "graphics-works/Recruitment"),
     
+    OTHER_WORK("NUS SoC Soccat fanart", "graphics-works/cat"),
     OTHER_WORK("NUS Piano Ensemble Melodias concert promotion", "graphics-works/melodias"),
 
     
