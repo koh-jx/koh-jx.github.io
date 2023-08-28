@@ -4,8 +4,8 @@ import { EDUCATION, WORK_EXPERIENCE } from '../../common/info';
 
 function BackgroundPage() {
     return (
-        <div className='overflow-scroll no-scrollbar'>
-            <div className='w-full h-fit m-4 text-2xl md:text-4xl lg:text-4xl'>
+        <div className=''>
+            <div className='w-full h-fit p-4 text-2xl md:text-4xl lg:text-4xl'>
                 <span className="underline font-bold opacity-70">Education</span>
                 <div className='grid grid-cols-1'>
                     {EDUCATION.map((info) => (

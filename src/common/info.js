@@ -35,9 +35,9 @@ export const EDUCATION = [
     Info("National University of Singapore",
         "Bachelor of Computing (Honours) in Computer Science",
         "Aug 2020 - May 2024",
-        "Specialisation in Graphics and Game Development, Databases",
-        "CAP: 4.3/5.0",
-        "Minor in Management"
+        "Specialisation in Graphics and Game Development",
+        "Specialisation in Databases",
+        "CAP: 4.3/5.0"
     ),
 ]
 export const WORK_EXPERIENCE = [
