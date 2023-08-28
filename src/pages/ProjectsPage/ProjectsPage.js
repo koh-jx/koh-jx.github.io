@@ -7,7 +7,7 @@ function ProjectsPage() {
     return (
         <>
             <PageTitle name={"My Projects"}/>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:m-12 m-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-4 m-12">
                 {PROJECTS.map((project) => (
                     <div key={project.title} className="col-span-1">
                         <ProjectCard

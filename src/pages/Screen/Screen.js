@@ -21,7 +21,7 @@ function Screen() {
                     <ProjectsPage />
                 </section>
 
-                <section className="min-h-full h-fit w-full" id="other-work">
+                <section className="min-h-full h-full w-full" id="other-work">
                     <OtherWorkPage />
                 </section>
             </div>

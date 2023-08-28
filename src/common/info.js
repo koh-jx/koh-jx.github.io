@@ -24,6 +24,13 @@ const Skill = (title, svgLink) => {
     }
 }
 
+const OTHER_WORK = (title="", imgLink="pixel/invalid.png") => {
+    return {
+        title: title,
+        imgLink: imgLink
+    }
+}
+
 export const EDUCATION = [
     Info("National University of Singapore",
         "Bachelor of Computing (Honours) in Computer Science",
@@ -102,11 +109,30 @@ export const SKILLS = {
     ]
 }
 
-    
-    
-    
-    
-    
+export const DETAILS_LIST = [
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+    OTHER_WORK(),
+]
+
+
+// Pad with empty OTHER_WORK objects until multiple of 9 is reached
+if (DETAILS_LIST.length % 9 !== 0) {
+    const amountToInsert = 9 - DETAILS_LIST.length % 9;
+    for (let i = 0; i < amountToInsert; i++) {
+        DETAILS_LIST.push(OTHER_WORK())
+    }
+}
+
 
 
 

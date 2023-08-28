@@ -6,9 +6,9 @@ import Screen from './pages/Screen';
 function App() {
   return (
     <>
-      <div className="crosshatch-container font-Pixel flex-col h-[calc(100vh-74px)] sm:md:lg:h-screen">
+      <div className="crosshatch-container font-Pixel flex-col">
         <div className="flex flex-row w-full">
-          <div className="w-2/6 md:w-4/6 lg:w-4/6">
+          <div className="w-3/6 md:w-4/6 lg:w-4/6">
             <HLine />
           </div>
           <div className="w-3/6 h-1/2 md:w-1/6 lg:w-1/6">
