@@ -58,11 +58,11 @@ function OtherWorkPage() {
 
                     <div className="h-1/6">
                         {/* Arrow buttons  */}
-                        <div className="flex center flex-row h-full">
+                        <div className="flex center flex-row h-full w-full">
                             <button className="w-1/3 h-1/2 arrow" disabled={page === 0}>
                                 <img src="./pixel/arrow-pixel-left.png" alt="arrow-left" className="h-full" onClick={() => setPage(page - 1)}/>
                             </button>
-                            <span className="font-PixelBlock text-3xl">Page {page+1} of {MAX_PAGES}</span>
+                            <span className="font-PixelBlock invisible md:lg:visible md:lg:text-3xl">Page {page+1} of {MAX_PAGES}</span>
                             <button className="w-1/3 h-1/2 arrow right" disabled={page + 1 === MAX_PAGES}>
                                 <img src="./pixel/arrow-pixel-left.png" alt="arrow-right" className="h-full" onClick={() => setPage(page + 1)}/>
                             </button>
