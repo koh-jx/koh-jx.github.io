@@ -64,13 +64,20 @@ export const PROJECTS = [
         {Github: "https://github.com/koh-jx/Anka"}
     ),
     Project("Study Planner",
-        "Timetabling web application integrating NUSMods API, created as part of NUS SoC Orbital 2021.",
+        "Timetabling web application integrating NUSMods API.",
         "React, Firebase",
         "https://i.imgur.com/U7Ad53X.png",
         {Link: "https://orbital-f53dc.firebaseapp.com"}
+    ),
+    Project("NUSe",
+        "Telegram bot facilitating mutual exchange of unneeded items within NUS hostels.",
+        "Python, AWS S3",
+        "https://i.imgur.com/I7xufE2.png",
+        {Github: "https://github.com/koh-jx/GEQ19C"}
     )
 
-    // NUSe
+    // Graphics Project
+    // tP
     // Portfolio website
 ]
 

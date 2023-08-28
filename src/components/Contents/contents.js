@@ -22,6 +22,7 @@ function Contents() {
 
     const playAudio = useCallback(() => {
         const audio = new Audio("/mixkit-game-click-1114.wav");
+        audio.volume = 0.08;
         audio.play();
     }, []);
 
