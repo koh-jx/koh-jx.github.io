@@ -2,6 +2,7 @@ import './Screen.css';
 import TitlePage from '../TitlePage';
 import StatusPage from '../StatusPage';
 import ProjectsPage from '../ProjectsPage';
+import OtherWorkPage from '../OtherWorkPage';
 
 function Screen() {
     return (
@@ -21,7 +22,7 @@ function Screen() {
                 </section>
 
                 <section className="min-h-full h-fit w-full" id="other-work">
-                    
+                    <OtherWorkPage />
                 </section>
             </div>
         </>
