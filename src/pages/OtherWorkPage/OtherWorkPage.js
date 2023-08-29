@@ -1,7 +1,7 @@
 import './OtherWorkPage.css';
 import PageTitle from '../../components/PageTitle';
 import { useState } from 'react';
-import { DETAILS_LIST } from '../../common/info';
+import { DETAILS_LIST, DETAILS_LIST_LENGTH } from '../../common/info';
 
 function OtherWorkPage() {
 
@@ -12,14 +12,18 @@ function OtherWorkPage() {
     const MAX_PAGES = Math.ceil(DETAILS_LIST.length / 9);
     // Index to select in details info list is selection + page * 9
 
-    
-
     const updateSelection = (newSelection) => {
         // If is a valid index in DETAILS_LIST
-        if (newSelection + page * 9 >= DETAILS_LIST.length) return;
+        if (newSelection + page * 9 >= DETAILS_LIST_LENGTH) return;
         setSelection(newSelection);
     }
-    
+
+    const updatePage = (newPage) => {
+        setPage(newPage);
+        if (newPage * 9 + selection >= DETAILS_LIST_LENGTH) {
+            setSelection(0);
+        }
+    }
 
     return (
         <>
@@ -60,11 +64,11 @@ function OtherWorkPage() {
                         {/* Arrow buttons  */}
                         <div className="flex center flex-row h-full w-full">
                             <button className="w-1/3 h-1/2 arrow" disabled={page === 0}>
-                                <img src="./pixel/arrow-pixel-left.png" alt="arrow-left" className="h-full" onClick={() => setPage(page - 1)}/>
+                                <img src="./pixel/arrow-pixel-left.png" alt="arrow-left" className="h-full" onClick={() => updatePage(page - 1)}/>
                             </button>
                             <span className="font-PixelBlock invisible md:lg:visible md:lg:text-3xl">Page {page+1} of {MAX_PAGES}</span>
                             <button className="w-1/3 h-1/2 arrow right" disabled={page + 1 === MAX_PAGES}>
-                                <img src="./pixel/arrow-pixel-left.png" alt="arrow-right" className="h-full" onClick={() => setPage(page + 1)}/>
+                                <img src="./pixel/arrow-pixel-left.png" alt="arrow-right" className="h-full" onClick={() => updatePage(page + 1)}/>
                             </button>
                         </div>
                     </div>

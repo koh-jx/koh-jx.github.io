@@ -130,18 +130,13 @@ export const DETAILS_LIST = [
     OTHER_WORK("NUS Computing Club 23rd Management Committee Namecard", "graphics-works/namecard"),
     OTHER_WORK("NUS Computing Club Finals 'Good Luck' poster", "graphics-works/finals_goodluck"),
     OTHER_WORK("NUS SoC eFreshman Orientation Programme final logo design", "graphics-works/admeliora_logo"),
-    OTHER_WORK("NUS SoC eFreshman Orientation Programme promotional poster", "graphics-works/Recruitment"),
     
+    OTHER_WORK("NUS SoC eFreshman Orientation Programme promotional poster", "graphics-works/Recruitment"),
     OTHER_WORK("NUS SoC Soccat fanart", "graphics-works/cat"),
     OTHER_WORK("NUS Piano Ensemble Melodias concert promotion", "graphics-works/melodias"),
-
-    
-    
-    
-    
-    
-    
 ]
+
+export const DETAILS_LIST_LENGTH = DETAILS_LIST.length;
 
 
 // Pad with empty OTHER_WORK objects until multiple of 9 is reached
@@ -151,5 +146,3 @@ if (DETAILS_LIST.length % 9 !== 0) {
         DETAILS_LIST.push(OTHER_WORK())
     }
 }
-
-console.log(DETAILS_LIST)
