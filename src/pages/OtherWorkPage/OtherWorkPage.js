@@ -72,7 +72,6 @@ function OtherWorkPage() {
                             </button>
                         </div>
                     </div>
-                    
                 </div>
                     
                 <div className="col-span-3 preview center flex flex-col h-full">

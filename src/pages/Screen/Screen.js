@@ -13,7 +13,10 @@ function ScrollToTop() {
     }
     return (
         <div className="top-to-btm" onClick={goToTop}>
-            <ArrowUpwardIcon className="icon-position icon-style"/>
+            <ArrowUpwardIcon className="icon-position icon-style" style={{
+                fontSize: 40,
+                
+            }}/>
         </div>
     );
 }
